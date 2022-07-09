@@ -342,6 +342,16 @@ color: var(--accent-cl);
     color: rgba(255, 255, 255, 0.6);
 }
 
+/* Portfolio page */
+.filters-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    gap: 8px;
+
+
+}
+
 .portfolio-btn {
 
 font-weight: 500;
@@ -361,7 +371,22 @@ border: none;
 
 }
 
+.projects-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
 
+
+}
+
+.projects-descr {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border: 1px solid #EEEEEE;
+    border-top: none;
+}
 
 .projects-title {
     font-weight: 700;
