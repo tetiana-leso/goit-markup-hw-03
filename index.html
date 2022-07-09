@@ -10,33 +10,41 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
     
     <header class="header">
+        <div class="container header-container">
         <nav class="header-nav">
             <a class="logo link" href="./index.html">Web<span class="accent-logo-header">Studio</span></a>
-            <ul class="header-nav list">
-                <li class="header-nav item"><a class="header-link header-link-current link" href="">Студия</a></li>
-                <li class="header-nav item"><a class="header-link link" href="./portfolio.html">Портфолио</a></li>
-                <li class="header-nav item"><a class="header-link link" href="">Контакты</a></li>
+            <ul class="header-nav-list list">
+                <li class="header-nav-item"><a class="header-link header-link-current link" href="">Студия</a></li>
+                <li class="header-nav-item"><a class="header-link link" href="./portfolio.html">Портфолио</a></li>
+                <li class="header-nav-item"><a class="header-link link" href="">Контакты</a></li>
             </ul>
         </nav>
         <ul class="header-contacts list">
-            <li class="header-contacts item"><a class="header-email header-email-current link" href="mailto:info@example.com">info@devstudio.com</a></li>
-            <li class="header-contacts item"><a class="header-phone link" href="tel:+380991111111">+38 096 111 11 11</a></li>
+            <li class="header-contacts-item"><a class="header-email header-email-current link" href="mailto:info@example.com">info@devstudio.com</a></li>
+            <li class="header-contacts-item"><a class="header-phone link" href="tel:+380991111111">+38 096 111 11 11</a></li>
         </ul>
+        </div>
     </header>
     <main>
 
         <section class="hero">
-            <h1 class="hero-title title">Эффективные решения для вашего бизнеса</h1>
+            <div class="container">
+            <h1 class="hero-title title">Эффективные решения <br /> для вашего бизнеса</h1>
             <button class="hero-btn btn" type="button">Заказать услугу</button>
+            </div>
         </section>
 
-        <section>
+        <section class="feature-section section">
+            <div class="container">
             <!--hide title-->
+
             <h2 hidden>Особенности компании</h2>
                 <ul class="feature list">
                     <li class="feature-item">
@@ -56,9 +64,11 @@
                         <p class="feature-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                     </li>
                 </ul>
+                </div>
         </section> 
         
-        <section class="work">
+        <section class="work section">
+            <div class="container">
             <h2 class="work-title">Чем мы занимаемся</h2>
                 <ul class="work list">
                     <li class="work-item">
@@ -70,10 +80,12 @@
                     <li class="work-item">
                         <img src="./images/image3.jpg" alt="Графический дизайн" width="370"/>
                     </li>
-                  </ul>      
+                  </ul>   
+                </div>
         </section>
 
-        <section class="team">
+        <section class="team section">
+            <div class="container">
             <h2 class="team-title">Наша команда</h2>
             <ul class="team list">
                 <li class="team-item">
@@ -97,6 +109,7 @@
                     <p class="team-text">UI Designer</p>
                 </li>              
             </ul>
+            </div>
         </section>
     </main>
     <footer class="footer">
