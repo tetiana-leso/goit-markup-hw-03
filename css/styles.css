@@ -65,9 +65,8 @@ p {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-
   
-  }
+}
 
 .hero,
 .footer {
@@ -185,6 +184,7 @@ color: var(--accent-cl);
 
 
 .hero-title {
+    margin-bottom: 50px;
     font-weight: 900;
     font-size: 44px;
     line-height: calc(60 / 44);
@@ -211,8 +211,6 @@ color: var(--accent-cl);
 }
 
 /* feature section */
-
-/* не використала контейнер для стилызації */
 
 .feature-section {
     padding-bottom: 0;
@@ -278,8 +276,20 @@ color: var(--accent-cl);
     background: var(--light-bg-cl);
 }
 
+.team-descr {
+   
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
+    0px 1px 1px rgba(0, 0, 0, 0.14), 
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+     border-radius: 0px 0px 4px 4px;
+
+
+}
+
 .team-uppertitle {
-    margin-top: 30px;
     margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
@@ -343,12 +353,12 @@ color: var(--accent-cl);
 }
 
 /* Portfolio page */
+
 .filters-list {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
     gap: 8px;
-
 
 }
 
@@ -396,7 +406,6 @@ border: none;
     color: var(--primary-txt-cl);
 
 }
-
 
 .projects-text {
     font-weight: 400;
