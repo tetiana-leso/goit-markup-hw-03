@@ -151,8 +151,7 @@ color: var(--accent-cl);
 
 }
 
-.header-link-current, 
-.header-email-current {
+.header-link-current {
     color: var(--accent-cl)
 
 }
@@ -335,7 +334,7 @@ color: var(--accent-cl);
 }
 
 .address-list {
-   
+ font-style: normal;
  font-weight: 400;
  font-size: 14px;
  line-height: calc(24 / 14);
